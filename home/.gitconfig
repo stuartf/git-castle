@@ -1,6 +1,6 @@
 [user]
   name = D. Stuart Freeman
-  email = stuart.freeman@et.gatech.edu
+  email = stuart.freeman@c21u.gatech.edu
 [color]
   diff = auto
   status = auto
@@ -19,3 +19,5 @@
   lg = log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --
 [gpg]
 	program = gpg2
+[pull]
+	rebase = true
